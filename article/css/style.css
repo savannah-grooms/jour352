@@ -1,0 +1,27 @@
+header {
+    text-align: center;
+}
+#banner {
+    background-color:bisque;
+    padding: .5em;
+}
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h1{
+color: hotpink;
+font-family: cursive;
+font-size: 80px;
+}
+h2{
+    color: palevioletred;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px;
+    }
+.callout{
+    background-color: antiquewhite;
+    padding: 1em;
+}
+.alt {
+    font-style: italic;
+}
