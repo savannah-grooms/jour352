@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+DE+Grund:wght@100..400&display=swap');
+body {
+    background-color: #EC9AB4;
+    color: black;
+    font-family: "Playwrite DE Grund", cursive;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+main {
+    background-color: #FBFFFF;
+    color: #1C2827;
+}
+
+main,
+header,
+section,
+footer {
+    padding: 5em 0;
+}
+
+header img {
+    margin: 0 auto;
+    display: block;
+    width: 25%;
+}
+
+.nav-link:hover {
+    color: hotpink;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: underline;
+    letter-spacing: 1.2px;
+    padding: 1em;
+    font-weight: 200;
+    font-size: 100%;
+}
+img{
+    width: 1000px;
+    height: 100px;
+}
+
+h2 {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    color: hotpink;
+}
+h1 {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 50px;
+    color: white;
+}
+
+b {
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: .8em;
+    text-decoration: underline;
+    letter-spacing: 1px;
+    line-height: 4;
+}
+
+a {
+    text-transform: uppercase;
+    color: #1C2827;
+    text-decoration: underline;
+    font-size: .8em;
+    font-weight: 700;
+}
