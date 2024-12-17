@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Parkinsans:wght@300..800&family=Playwrite+FR+Trad:wght@100..400&family=Playwrite+US+Modern:wght@100..400&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Parkinsans:wght@300..800&family=Playwrite+FR+Trad:wght@100..400&family=Playwrite+US+Modern:wght@100..400&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+a {
+    color: #B82B26;
+    text-decoration: underline;
+}
+
+h2,
+h3 {
+    font-family: "Roboto", sans-serif;
+}
+
+h3 {
+    font-weight: bold;
+    color: #B82B26;
+}
+
+
+header {
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+header h1 {
+    font-size: 6rem;
+    font-family: "Prompt", serif;
+    font-weight: bolder;
+    text-transform: uppercase;
+    margin: 0.5rem 0;
+}
+
+header h2 {
+    font-size: 1.5rem;
+    font-weight: normal;
+}
+
+.author-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.me-2 {
+    margin-right: 0.5rem;
+}
+
+.mb-0 {
+    margin-bottom: 0;
+}
+
+.iframe-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.back-black {
+    background-color: black;
+}
+
+.text-white {
+    color: white;
+}
+
+
+
+.text {
+    width: 45%;
+    margin: 20px auto;
+    font-size: 2rem;
+    line-height: 1.8;
+}
+
+.container-fluid {
+    background-color: black;
+    color: white;
+    padding: 20px 10%;
+    text-align: left;
+    height: auto;
+}
+
+.container-fluid img {
+    width: 60%;
+    height: 20%;
+    object-position: center;
+}
+
+.container-fluid p {
+    color: white;
+}
+
+.reddit-embed-container {
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    overflow: hidden;
+    margin-bottom: 3%;
+}
+
+.reddit-embed-bq {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 2rem;
+    line-height: 1.8;
+}
+
+footer p {
+    font-family: Arial, Helvetica, sans-serif;
+}
